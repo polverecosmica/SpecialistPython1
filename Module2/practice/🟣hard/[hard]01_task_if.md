@@ -18,7 +18,13 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+num = int(input("введите число: "))
+
+if (num // 1000 == num % 10) and (((num % 1000) // 100) == ((num % 100) // 10)):
+    print("ДА")
+else:
+    print("НЕТ")
+
 ```
 
 ---
