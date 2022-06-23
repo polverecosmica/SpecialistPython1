@@ -28,7 +28,17 @@ n = 5
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+num = int(input("enter n: "))
+horz = 1
+vert = 1
+while vert < num + 1:
+    while horz < num + 1:
+        print("{:2d}".format(horz * vert), end=" ")
+        horz += 1
+    vert += 1
+    horz = 1
+    print()
+
 ```
 
 ---
