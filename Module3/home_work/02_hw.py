@@ -5,4 +5,14 @@
 import random
 numbers = []
 # print(random.randint(10, 20))  # раскомментируйте, чтобы посмотреть работу функции randint
-# TODO: your code here
+import random
+n = int(input("enter the quantity "))
+count = 1
+str_output = []
+
+while count <= n:
+    str_temp = (random.randint(-100, 100))
+    count += 1
+    str_output.append(str_temp)
+
+print(str_output)
